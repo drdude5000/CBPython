@@ -2,7 +2,7 @@ from SimpleDeck import BDeck
 from Players import Player
 
 #enables prints at certain debug levels 0=off 1=on
-verbose = 0
+verbose = 1
 
 #The object that will commence the game
 class GameStart:
@@ -18,6 +18,7 @@ class GameStart:
         for i in range(4):
             self.playerlst.append(Player())
             self.playerlst[i].designation = i
-            self.playerlst[i].collecthand(self.gamedeck.givehand())
+            self.playerlst[i].collectHand(self.gamedeck.giveHand())
 
 bgame = GameStart()
+print(bgame.playerlst[0].checkHand())

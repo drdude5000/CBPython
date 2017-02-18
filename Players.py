@@ -18,8 +18,11 @@ class Player:
     def checkHand(self):
         dout = ""
         count = 1
-
+        self.hand = sorted(self.hand, key=Card.getSort)
         for i in self.hand:
-            dout = "Card " + str(count) + ": " + self.hand[count - 1].checkcard()
+            dout = dout + "Card " + str(count) + ": " + self.hand[count - 1].checkcard() + ".\n"
+            count = count + 1
+
+        dout = dout.rstrip()
 
         return dout

@@ -7,6 +7,10 @@ class Card:
         self.num = i
         # 0=Club 1=Diamond 2=Heart 3=Spade
         self.suit = j
+        #Sorting value used to sort while in hands
+        self.sortval = i + j
+    def getSort(self):
+        return self.sortval
 
     #DEBUG
     def checkcard(self):
@@ -38,7 +42,7 @@ class BDeck:
     def shuffle(self):
         shuffle(self.lst)
 
-    def givehand(self):
+    def giveHand(self):
         ghand = []
         #Forcing a Shuffle Here
         self.shuffle()
