@@ -8,6 +8,24 @@ class Card:
         # 0=Club 1=Diamond 2=Heart 3=Spade
         self.suit = j
 
+    #DEBUG
+    def checkcard(self):
+        num = ""
+        suit = ""
+        numlst = ["Two","Three", "Four", "Five", "Six", "Seven", "Eight", "Nine","Ten","Jack","Queen","King","Ace"]
+        suitlst = ["Clubs","Diamonds","Hearts","Spades"]
+
+        for i in range(13):
+            if self.num == i + 2:
+                num = numlst[i]
+                break
+        for i in range(4):
+            if self.suit == i:
+                suit = suitlst[i]
+                break
+        dout = num + " of " + suit
+        return dout
+
 class BDeck:
     def __init__(self):
         #Contains Cards
@@ -20,19 +38,15 @@ class BDeck:
     def shuffle(self):
         shuffle(self.lst)
 
-    def checktop(self):
-        num = ""
-        suit = ""
-        numlst = ["Two","Three", "Four", "Five", "Six", "Seven", "Eight", "Nine","Ten","Jack","Queen","King","Ace"]
-        suitlst = ["Clubs","Diamonds","Hearts","Spades"]
-
+    def givehand(self):
+        ghand = []
+        #Forcing a Shuffle Here
+        self.shuffle()
         for i in range(13):
-            if self.lst[0].num == i + 2:
-                num = numlst[i]
-                break
-        for i in range(4):
-            if self.lst[0].suit == i:
-                suit = suitlst[i]
-                break
+            ghand.append(self.lst.pop())
+        return ghand
 
-        print("Top card is the " + num + " of " + suit + ".")
+    #DEBUG METHOD Can only be used before cards are distributed to the players
+    def checktop(self):
+        dout = "Top card is the " + self.lst[0].checkcard()
+        return dout
