@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4384110-c059-44a9-9314-024455e6ff98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhaseIni.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Players.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhaseIni.py" afterPath="$PROJECT_DIR$/PhaseIni.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleDeck.py" afterPath="$PROJECT_DIR$/SimpleDeck.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SimpleDeck.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SimpleDeck.py">
+      <file leaf-file-name="Players.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Players.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="221">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -33,6 +35,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleDeck.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SimpleDeck.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,8 +67,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Test01.py" />
-        <option value="$PROJECT_DIR$/SimpleDeck.py" />
         <option value="$PROJECT_DIR$/PhaseIni.py" />
+        <option value="$PROJECT_DIR$/Players.py" />
+        <option value="$PROJECT_DIR$/SimpleDeck.py" />
       </list>
     </option>
   </component>
@@ -105,7 +118,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.SimpleDeck">
+  <component name="RunManager" selected="Python.PhaseIni">
     <configuration default="false" name="SimpleDeck" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,6 +132,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CBPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SimpleDeck.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PhaseIni" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CBPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PhaseIni.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -257,12 +287,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.SimpleDeck" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PhaseIni" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.SimpleDeck" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.PhaseIni" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SimpleDeck" />
       </list>
     </recent_temporary>
   </component>
@@ -277,6 +309,14 @@
       <option name="presentableId" value="Default" />
       <updated>1487349677149</updated>
     </task>
+    <task id="LOCAL-00001" summary="Com">
+      <created>1487368445899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487368445899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -305,6 +345,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Com" />
+    <option name="LAST_COMMIT_MESSAGE" value="Com" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -318,6 +362,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleDeck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PhaseIni.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -326,10 +378,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleDeck.py">
+    <entry file="file://$PROJECT_DIR$/Players.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="221">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>

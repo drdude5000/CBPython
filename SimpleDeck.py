@@ -36,8 +36,3 @@ class BDeck:
                 break
 
         print("Top card is the " + num + " of " + suit + ".")
-
-
-sampledeck = BDeck()
-sampledeck.shuffle()
-sampledeck.checktop()
