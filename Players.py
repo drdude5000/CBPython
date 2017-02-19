@@ -12,6 +12,12 @@ class Player:
     #fhand should be a list of 13 card objects
     def collectHand(self, fhand):
         self.hand = fhand
+
+
+    def analyzeHand(self):
+        pass
+
+
     #DEBUG
     def checkHand(self):
         dout = ""

@@ -21,7 +21,6 @@ class GameStart:
             #Sorts Hand for the players
             self.playerlst[i].collectHand(CardSort.cSort(self.gamedeck.giveHand()))
 
-
-
+#Testing
 bgame = GameStart()
 print(bgame.playerlst[0].checkHand())
