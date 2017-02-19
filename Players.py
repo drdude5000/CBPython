@@ -1,4 +1,3 @@
-from SimpleDeck import Card
 
 class Player:
     def __init__(self):
@@ -13,12 +12,10 @@ class Player:
     #fhand should be a list of 13 card objects
     def collectHand(self, fhand):
         self.hand = fhand
-
     #DEBUG
     def checkHand(self):
         dout = ""
         count = 1
-        self.hand = sorted(self.hand, key=Card.getSort)
         for i in self.hand:
             dout = dout + "Card " + str(count) + ": " + self.hand[count - 1].checkcard() + ".\n"
             count = count + 1

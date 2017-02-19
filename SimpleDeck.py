@@ -8,8 +8,8 @@ class Card:
         # 0=Club 1=Diamond 2=Heart 3=Spade
         self.suit = j
         #Sorting value used to sort while in hands
-        self.sortval = i + j
-    def getSort(self):
+        self.sortval = (j * 100) + i
+    def getSval(self):
         return self.sortval
 
     #DEBUG
