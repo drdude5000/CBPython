@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4384110-c059-44a9-9314-024455e6ff98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BidSystem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CardSorter.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainControl.py" afterPath="$PROJECT_DIR$/MainControl.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Players.py" afterPath="$PROJECT_DIR$/Players.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleDeck.py" afterPath="$PROJECT_DIR$/SimpleDeck.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,16 +22,16 @@
         <entry file="file://$PROJECT_DIR$/Players.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleDeck.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimpleDeck.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SimpleDeck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
+            <state relative-caret-position="-58">
               <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding>
                 <element signature="e#494#979#0" expanded="false" />
@@ -57,20 +53,18 @@
       <file leaf-file-name="MainControl.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainControl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BidSystem.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BidSystem.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BidSystem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,10 +89,10 @@
         <option value="$PROJECT_DIR$/Test01.py" />
         <option value="$PROJECT_DIR$/PhaseIni.py" />
         <option value="$PROJECT_DIR$/SimpleDeck.py" />
-        <option value="$PROJECT_DIR$/Players.py" />
         <option value="$PROJECT_DIR$/CardSorter.py" />
         <option value="$PROJECT_DIR$/MainControl.py" />
         <option value="$PROJECT_DIR$/BidSystem.py" />
+        <option value="$PROJECT_DIR$/Players.py" />
       </list>
     </option>
   </component>
@@ -355,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487439899529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bidding Session">
+      <created>1487470124630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487470124630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -387,7 +388,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Com" />
     <MESSAGE value="DEBUG Cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEBUG Cards" />
+    <MESSAGE value="Bidding Session" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bidding Session" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -402,21 +404,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Players.py">
+    <entry file="file://$PROJECT_DIR$/BidSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleDeck.py">
+    <entry file="file://$PROJECT_DIR$/MainControl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="e#494#979#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -428,21 +428,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainControl.py">
+    <entry file="file://$PROJECT_DIR$/Players.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BidSystem.py">
+    <entry file="file://$PROJECT_DIR$/SimpleDeck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
-          <folding />
+        <state relative-caret-position="-58">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="e#494#979#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
